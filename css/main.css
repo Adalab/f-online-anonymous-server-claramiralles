@@ -18,6 +18,9 @@ body {}
 .nav__item {}
 .nav__link {}
 .nav-close {}
+.hidden {
+    display: none;
+}
 
 
 
