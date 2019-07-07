@@ -1,15 +1,5 @@
 'use strict';
 
-//REMOVED THIS CODE & PUT THE IMAGE THROUGH CSS AS BACKGROUND TO PAGE, SINCE IT WAS GIVING POSITION PROBLEMS
-
-// const bodyElement = document.querySelector('body');
-
-// // const pageElement = document.querySelector('.page');
-// const backgroundImage = document.createElement('img');
-// backgroundImage.setAttribute('src', "../images/anonymous-server-background.jpg");
-// backgroundImage.classList.add('image__background');
-// bodyElement.appendChild(backgroundImage);
-
 const headerElement = document.querySelector('.page__header');
 headerElement.classList.add('closed');
 
