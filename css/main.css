@@ -24,6 +24,9 @@ body {
     height: 100vh;
     width: 100vw;
     position: absolute;
+    font-size: 60px;
+    background-color: #402929;
+    opacity: 0.92;
 }
 
 .closed {
@@ -32,6 +35,7 @@ body {
     height: 5vh;
     width: 5vw;
     position: absolute;
+    background-color: transparent;
 }
 .nav-trigger {}
 
