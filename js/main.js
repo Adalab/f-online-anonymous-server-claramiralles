@@ -1,5 +1,11 @@
 'use strict';
 
+const pageElement = document.querySelector('.page');
+const backgroundImage = document.createElement('img');
+backgroundImage.setAttribute('src', "../images/anonymous-server-background.jpg");
+pageElement.appendChild(backgroundImage);
+
+
 const menuButtonElement = document.querySelector('.nav-trigger');
 const menuImageElement = document.createElement('img');
 menuImageElement.setAttribute ('src', '../images/ico-menu.svg');
